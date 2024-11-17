@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Blood Donation | Home</title>
+    <style>
+        p{
+
+            color:rgb(116, 118, 161);
+        }
+        
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 style="border-color:black" >Blood Donation</h1 >
+    </header>
+    <nav>
+        <a href="#register">Register</a>
+        <a href="donate.html">Why Donate Blood</a>
+        <a href="who can donate blood.html">Who can donate Blood</a>
+        <a href="contact.html">Contact us</a>
+    </nav>
+    <main>
+        
+        <h1 style="font-size:50px">Give Blood</h1>
+        <img src="img 6.jpg" alt="" width = 28% height="28%" >
+        <img src="img 1.jpg" alt="" width = 29% height="38%">
+        <img src="sers\HP-PC\Downloads\blood-donation-inscription-isolated-white-created-ve-blood-donation-inscription-isolated-white-created-120055074.jpg" alt=""  width = 28% height="32%">
+    
+    </main>
+    <section>
+    <form action="" id="register">
+        <fieldset>
+        <h1>Find a Donor</h1>
+        <hr>
+        <p>State*:
+        <input type="text" name="State" id="State" required></p>
+        <p>City*:
+            <input type="text" name="City" id="City" required>
+        </p>
+        <p>Area*: 
+            <input type="text">
+        </p>
+    
+        
+        <p>Blood Type*:
+            <select name="Blood type" id="Blood Type">
+                <option value="" >--Select your blood type--</option>
+                <option value="A+" >A+</option>
+                <option value="A-" >A-</option>
+                <option value="B+" >B+</option>
+                <option value="B-" >B-</option>
+                <option value="O" >O</option>
+                <option value="O-" >O-</option>
+                <option value="AB+" >AB+</option>
+                <option value="AB-" >AB-</option>
+            </select>
+        </p>
+        <button class="btn btn-success" type="submit" name="submitBtn" >Find Donor</button>
+    </fieldset>
+
+    </form>
+    <fieldset>
+    <h1>Donation Process</h1>
+    <ul>
+    <h2><b>Health History</b></h2>
+
+        <li>You’ll answer a few questions about your health history and places you’ve traveled, during a private and confidential interview.</li>
+        <li>You’ll tell us about any prescription and/or over the counter medications that may be in your system.
+        We’ll check your temperature, pulse, blood pressure and hemoglobin level. </li>
+        </ul>
+        <h2>Your Donation</h2>
+        <ul>
+        <h3>About Your Blood Donation</h3>
+        <li>If you’re donating whole blood, we’ll cleanse an area on your arm and insert a brand new sterile needle for the blood draw. (This feels like a quick pinch and is over in seconds.)</li>
+        <li>Other types of donations, such as platelets, are made using an apheresis machine which will be connected to both arms.</li>
+        <li>A whole blood donation takes about 8-10 minutes, during which you’ll be seated comfortably or lying down.</li>
+        <li>When approximately a pint of whole blood has been collected, the donation is complete and a staff person will place a bandage on your arm.</li>
+        <li>For platelets, the apheresis machine will collect a small amount of blood, remove the platelets, and return the rest of the blood through your other arm; this cycle will be repeated several times over about 2 hours.</li>
+    </ul> 
+    </fieldset>
+    <fieldset>
+        <h1>Where would you like to donate?</h1>
+        <p>
+            <input type="text" name="donate" id="donate">
+        </p>
+        <button class="btn btn-success" type="Search" name="searchBtn" >Search</button>
+  
+    </fieldset>
+    <footer>
+
+        <h1>Give feedback:
+
+        </h1>
+        <button class="btn btn-success" type="submit" name="submitBtn" >Type Here 
+            <a href="C:\Users\HP-PC\Desktop\Cse project\type.html"></a>
+        </button>
+    </footer>
+   
+</main>
+</body>
+</html>
